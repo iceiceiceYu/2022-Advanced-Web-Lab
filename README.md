@@ -11,3 +11,7 @@
 Basic mission: ssm-demo
 
 Extra mission: html5-demo
+
+## Lab2
+
+Angular & Spring Boot
