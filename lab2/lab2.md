@@ -49,7 +49,7 @@ npm = Node Package Manager，绝大部分的现代前端项目中都使用 npm �
 
 然后全局安装 Angular CLI 。
 
-```
+```shell
 npm install -g @angular/cli
 ```
 
@@ -65,7 +65,7 @@ Angular工作区就是你开发应用的上下文环境。每个工作区包含�
 
 1、运行下列命令来生成一个新项目以及应用的骨架代码：
 
-```
+```shell
 ng new angular-learning
 ```
 
@@ -120,7 +120,7 @@ npm install --save @angular/material
 
 安装之后，我们可以注意到 package.json 的dependencies中多了两行：
 
-```
+```typescript
 ......
     "@angular/cdk": "^9.0.0",
 ......
@@ -678,7 +678,7 @@ Maven 是 Java 的库管理工具，其功能与 npm 比较类似。
 
 如果不安装 Maven，我们也可以通过手动将 Jar 包放到程序的 classpath 中来添加依赖文件，就像前端也可以手动下载 js 库并添加至页面中一样。但是这样的方式不利于管理依赖文件，因此推荐使用 Maven。
 
-下载 Maven: http://maven.apache.org/download.cgi 或解压 Lab 目录中的 `apache-maven-3.5.0-bin.zip`
+下载 Maven: http://maven.apache.org/download.cgi
 
 安装 Maven: http://maven.apache.org/install.html
 
